@@ -1,0 +1,42 @@
+Multimodal freeform prompt example:
+{
+  "title": "Bedtime Story",
+  "parameters": {
+    "temperature": 0.4,
+    "tokenLimits": 1024,
+    "topK": 40,
+    "topP": 0.95
+  },
+  "type": "multimodal_freeform",
+  "prompt": "Write a creative, children's bedtime story based on these images.\n",
+  "model": "gemini-1.5-flash-001",
+  "note": "This prompt is almost done. Should export soon."
+}
+
+Language prompt example:
+{
+  "title": "Plantation Palms",
+  "parameters": {
+    "temperature": 0.2,
+    "tokenLimits": 1024,
+    "topK": 40,
+    "topP": 0.95
+  },
+  "type": "freeform",
+  "prompt": "Create a description for Plantation Palms.\n",
+  "model": "gemini-1.5-flash-001",
+  "note": "This prompt is almost done. Should export soon."
+}
+
+Code prompt example:
+{
+  "title": "100 prime numbers",
+  "parameters": {
+    "temperature": 0.2,
+    "tokenLimits": 1024
+  },
+  "type": "freeform",
+  "prefix": "Write a c program that prints the first 100 prime numbers.\n",
+  "model": "code-bison@001",
+  "note": "This prompt is almost done. Should export soon."
+}
